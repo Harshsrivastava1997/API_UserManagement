@@ -1,0 +1,9 @@
+{
+  "name": "Akash",
+  "email": "akash@google.com",
+
+  "courses": [
+    "Maven",
+    "CI/CD"
+  ]
+}
