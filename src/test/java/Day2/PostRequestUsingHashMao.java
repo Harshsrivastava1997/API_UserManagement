@@ -19,7 +19,8 @@ public class PostRequestUsingHashMao {
         String Coursearr[]={"RestAssured","Java"};
         hm.put("courses",Coursearr);
 
-        given().header("x-api-key", "reqres-free-v1").
+        given().
+                header("x-api-key", "reqres-free-v1").
                 contentType("application/json").
                 body(hm).
                 baseUri("https://reqres.in/").
