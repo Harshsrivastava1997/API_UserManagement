@@ -21,6 +21,7 @@ public class ParsingXMLResponse {
                 header("Content-Type","text/xml").
                 header("Content-Encoding","gzip").
                 body("Catalog.CD[1].TITLE",equalTo("Hide your heart")).
-                body("Catalog.CD[5].COMPANY",equalTo("Polydor"));
+                body("Catalog.CD[5].COMPANY",equalTo("Polydor")).
+                body("Catalog.CD[5].TITLE",equalTo("One night only"));
     }
 }
