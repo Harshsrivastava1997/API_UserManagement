@@ -40,7 +40,7 @@ public class ParsingXMLResponseByStroringResponseVariable {
         //Checking specific Artist is present or not
         Assert.assertEquals(Artist.contains("Bonnie Tyler"),true);
 
-        
+
 
     }
 }
