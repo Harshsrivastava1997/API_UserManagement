@@ -27,17 +27,17 @@ public class CheckingAllYears {
 
               XmlPath xp = new XmlPath(res.asString());
 
-              //Checking total years
 
+               //Taking all years in list
               List <String> All_years= (xp.getList("CATALOG.CD.YEAR"));
-
+               //Checking total years size
                System.out.println("Total years are : "+All_years.size());
 
                //Printing all years
 
                System.out.println("All years are : ");
 
-               //Taking years in list and then will print using for each loop
+               //Taken years in list above  and now  will print using for each loop
 
 
               for(String current_year:All_years)
@@ -45,7 +45,7 @@ public class CheckingAllYears {
                   System.out.println(current_year);
               }
 
-              //Checking year 1997 is presemt or not
+              //Checking year 1997 is present or not
             Assert.assertEquals(All_years.contains("1996"),true);
     }
 }
