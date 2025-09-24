@@ -1,4 +1,4 @@
-package Day2;
+package Day6;
 
 public class Pojo_input_Class {
     String name;
